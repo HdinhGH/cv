@@ -1,0 +1,163 @@
+\let\nofiles\relax % This is because res says to not emit aux files,
+                   % but lastpage needs aux files.
+\documentclass[margin,line]{res}
+\usepackage[colorlinks=true]{hyperref}
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{microtype}
+\usepackage{amsmath,amssymb}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{etaremune}
+\usepackage[normalem]{ulem}
+
+\oddsidemargin -.5in
+\evensidemargin -.5in
+\voffset -25pt
+%\topmargin -.2in
+\headsep 25pt
+\textwidth=6.0in
+\textheight=9.4in
+\itemsep=0in
+\parsep=0in
+
+% Headings
+\pagestyle{fancy}
+\lhead{Huy B.~Dinh --- Curriculum Vitae}
+\chead{}
+\rhead{\thepage\ of \pageref*{LastPage}}
+\lfoot{}
+\cfoot{}
+\rfoot{}
+\renewcommand{\headrulewidth}{0.4pt}
+%\renewcommand{\footrulewidth}{0.4pt}
+
+\begin{document}
+
+\newcommand{\myname}{Huy Dinh}
+\newlength{\mynamewidth}
+\settowidth{\mynamewidth}{\namefont\myname}
+
+\name{\hspace*{0.5\textwidth}\hspace{-0.5\mynamewidth} \myname \vspace*{.2in}}
+% On the first page, have no header.
+\thispagestyle{empty}
+
+\begin{resume}
+
+\input{ContactContent.tex}
+
+\section{\sc Education}
+{\bf Ph.D., Applied Mathematics,} University of Utah \hfill {\bf Expected May 2020}\\
+\vspace*{-.1in}
+\begin{itemize}
+\item[ ] thesis advisor: Prof.\ Kenneth M. Golden
+\item[ ] research topics: simulations of floe scale dynamics, anomalous diffusion in sea ice, fractional diffusion equations, numerical methods for nonlocal PDEs
+\end{itemize}
+
+{\bf M.S., Statistics,} University of Utah \hfill {\bf Expected August 2019}\\
+\vspace*{-.1in}
+\begin{itemize}
+\item[ ] advisor: Prof.\ Tom Alberts
+\item[ ] research Topics: fractional Brownian motion (fBM) and autoregressive integrated moving average (fARIMA), continuous time random walks (CTRWs), Hurst exponent estimation
+\end{itemize}
+
+{\bf B.S., Mathematics,} University of Houston \hfill {\bf May 2014}\\
+\vspace*{-.1in}
+\begin{itemize}
+\item[ ] minor: Physics
+\item[ ] research topics: mathematical image processsing, applied algebraic topology, inverse problems, machine learning methods
+\end{itemize}
+
+\section{\sc Employment}
+{\bf graduate research and teaching assistant,} University of Utah \hfill {\bf August 2014--current}\\
+{\bf undergradaute research assistant,} University of Houston \hfill {\bf Spring 2010--May 2014}\\
+
+\section{\sc Honors and Awards}
+{\bf NSF GRFP Honorable Mention} \hfill {\bf 2016}\\
+{\bf Travel Award to attend Joint Mathematics Meetings} \hfill {\bf 2016}\\
+{\bf Travel Award to attend PIMS Conference on the Mathematics of Sea Ice} \hfill {\bf 2015}\\
+{\bf NSF GRFP Honorable Mention} \hfill {\bf 2015}\\
+
+\ifx\nopubs\undefined
+\input{PubsContent.tex}
+\else
+%
+\fi
+
+\section{\sc Attended Conferences}
+\begin{itemize}
+\item[] SIAM Wasatch Student Chapters Conference
+\hfill {\bf 2019}
+\item[] Joint Mathematics Meeting
+\hfill {\bf 2016}
+\item[] MRC on Differential Equations, Probability and Sea Ice
+\hfill {\bf 2015}
+\item[] PIMS Conference on the Mathematics of Sea Ice
+\hfill {\bf 2015}
+\end{itemize}
+
+\section{\sc Presentations}
+\begin{itemize}
+\item[] "Anomalous Diffusion in Sea Ice," SIAM Wasatch Student Chapters Conference, University of Southern Utah
+\hfill {\bf April 2019}
+\item[] "Eigenfaces, a Perspective on a Machine's Perspective," Applied Math Collective, University of Utah
+\hfill {\bf April 2019}
+\item[] "Anomalous Diffusion in Sea Ice," Oral Qualifying Exam, University of Utah
+\hfill {\bf Feburary 2019}
+\item[] "Factorization of Functions," Applied Math Collective, University of Utah
+\hfill {\bf July 2018}
+\item[] "Fractional Brownian Motion: Formulation and Applications," Applied Math Collective, University of Utah
+\hfill {\bf Feburary 2018}
+\end{itemize}
+
+\section{\sc Mentoring}
+{\bf Graduate students}
+\begin{itemize}
+\item[] Rebecca Hardenbrook
+\hfill {\bf Fall 2018 -- Spring 2019}
+\item[] Sean Groathouse
+\hfill {\bf Fall 2018 -- Spring 2019}
+\end{itemize}
+{\bf Undergraduate students}
+\begin{itemize}
+\item[] Everest Fang (coadvised with Kenneth Golden)
+\hfill {\bf Summer 2015}
+\end{itemize}
+
+\section{\sc Professional Activities}
+{\bf University of Utah SIAM Student Chapter President}\hfill{\bf Fall 2014--Summer 2018}\\
+\begin{itemize}
+\item[] organized the first SIAM Wasatch Student Chapters Conference
+\hfill {\bf Spring 2018}
+\item[] organzied SIAM SC interdepartmental BBQ
+\hfill {\bf Summer 2018}
+\item[] organzied COMAP awards seminar
+\hfill {\bf Spring 2016}
+\end{itemize}
+
+\section{\sc Computer Skills} 
+%{\bf Languages---}%
+Experience with \LaTeX, MatLab, Mathematica, HTML, Python, Git, C++, Java, Windows, Linux.
+
+\section{\sc Teaching Experience}
+{\bf Teaching Assistant}, University of Utah
+\vspace*{.05in}
+\begin{itemize}
+\item[ ] Math 3070, Applied Statistics I \hfill {\bf Fall 2019}
+\item[ ] Math 3150, Partial Differential Equation for Engineers \hfill {\bf Summer 2019}
+\item[ ] Math 1070, Introduction to Statistical Inference \hfill {\bf Spring 2019}
+\item[ ] Math 1070, Introduction to Statistical Inference \hfill {\bf Fall 2018}
+\item[ ] Math 3160, Applied Complex Variables \hfill {\bf Summer 2018}
+\item[ ] Math 2250, Differential Equation and Linear Algebra (Lab) \hfill {\bf Spring 2018}
+\item[ ] Math 1090, Business Algebra \hfill {\bf Fall 2017}
+\item[ ] Math 3160, Applied Complex Variables \hfill {\bf Summer 2017}
+\item[ ] Math 1060, Trigonometry \hfill {\bf Spring 2017}
+\item[ ] Math 1090, Business Algebra \hfill {\bf Fall 2016}
+\item[ ] Math 1090, Business Algebra \hfill {\bf Spring 2016}
+\item[ ] Math 2210, Calculus III, TA (one guest lecture) \hfill {\bf Fall 2015}
+\item[ ] Math 1210, Calculus I (Lab) \hfill {\bf Spring 2015}
+\item[ ] Math 2250, Differential Equation and Linear Algebra (Lab) \hfill {\bf Fall 2014}
+\end{itemize}
+
+\end{resume}
+\end{document}
