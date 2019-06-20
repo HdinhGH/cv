@@ -1,12 +1,12 @@
 # Fdb version 3
-["pdflatex"] 1561058362 "c:/Users/Huy Dinh/Desktop/CV/HDinhCV.tex" "c:/Users/Huy Dinh/Desktop/CV/HDinhCV.pdf" "HDinhCV" 1561058365
+["pdflatex"] 1561074274 "c:/Users/Huy Dinh/Desktop/CV/HDinhCV.tex" "c:/Users/Huy Dinh/Desktop/CV/HDinhCV.pdf" "HDinhCV" 1561074277
   "ContactContent.tex" 1560716805 493 f199f46bb1d0839541dc9360545cab38 ""
-  "HDinhCV.aux" 1561058364 778 604aa5e371dd195ff0a6fc694c863b78 "pdflatex"
-  "HDinhCV.out" 1561058364 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
-  "HDinhCV.tex" 1561058361 9193 e771f4f0bdeb8e7f13e3a5b039bfe7ea ""
-  "PubsContent.tex" 1561053764 1290 533d18f51088f32b174bdfa5163580cc ""
-  "c:/Users/Huy Dinh/Desktop/CV/HDinhCV.aux" 1561058364 778 604aa5e371dd195ff0a6fc694c863b78 ""
-  "c:/Users/Huy Dinh/Desktop/CV/HDinhCV.tex" 1561058361 9193 e771f4f0bdeb8e7f13e3a5b039bfe7ea ""
+  "HDinhCV.aux" 1561074276 778 604aa5e371dd195ff0a6fc694c863b78 "pdflatex"
+  "HDinhCV.out" 1561074276 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+  "HDinhCV.tex" 1561074063 9262 d49f01462601a4f7bee83c9eb5a8c95c ""
+  "PubsContent.tex" 1561074270 1288 ca6587af1087a67526e65957263b6f89 ""
+  "c:/Users/Huy Dinh/Desktop/CV/HDinhCV.aux" 1561074276 778 604aa5e371dd195ff0a6fc694c863b78 ""
+  "c:/Users/Huy Dinh/Desktop/CV/HDinhCV.tex" 1561074063 9262 d49f01462601a4f7bee83c9eb5a8c95c ""
   "c:/texlive/2019/texmf-dist/fonts/enc/dvips/cm-super/cm-super-t1.enc" 1558241036 2971 def0b6c1f0b107b3b936def894055589 ""
   "c:/texlive/2019/texmf-dist/fonts/map/fontname/texfonts.map" 1558242298 3332 103109f5612ad95229751940c61aada0 ""
   "c:/texlive/2019/texmf-dist/fonts/tfm/jknappen/ec/ecbx1000.tfm" 1558241786 3584 2d666ecf6d466d8b007246bc2f94d9da ""
@@ -82,9 +82,9 @@
   "c:/texlive/2019/texmf.cnf" 1558246288 673 4ae7b2f49cee444c5343a45b5d0f169c ""
   "res.cls" 1560714500 25869 8ec1e15ab4c53340bc92863668c7be49 ""
   (generated)
-  "HDinhCV.aux"
-  "HDinhCV.out"
+  "HDinhCV.pdf"
   "c:/Users/Huy Dinh/Desktop/CV/HDinhCV.pdf"
+  "HDinhCV.out"
   "c:/Users/Huy Dinh/Desktop/CV/HDinhCV.log"
   "HDinhCV.log"
-  "HDinhCV.pdf"
+  "HDinhCV.aux"
